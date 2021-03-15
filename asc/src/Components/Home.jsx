@@ -20,7 +20,7 @@ function Home(props) {
                 <Route path="/new-post" component={CreatePost} />
                 <Route path="/new-profile" component={CreateProfile} />
                 <Route path="/Login" component={Login} />
-            <h1>Home</h1>
+            
         </Container>
     );
 }

@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 function Header(props) {
   return (
       <div>
-    <Navbar variant="dark" id="navbar">
+    <Navbar  id="navbar">
       <Navbar.Brand href="/home" id="navbarBrand">
         After School Club
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-      <Navbar.Collapse id="basic-navbar-nav">
-          <h1>header Nav</h1>
+      {/* <Navbar.Collapse id="basic-navbar-nav"> */}
+       
         <Nav className="mr-auto">
           <Link to="/home" className="nav-link">
             Home
@@ -24,9 +24,9 @@ function Header(props) {
             Posts
           </Link>
         </Nav>
-      </Navbar.Collapse>
+      {/* </Navbar.Collapse> */}
     </Navbar>
-    <h1>header</h1>
+
     </div>
   );
 }
