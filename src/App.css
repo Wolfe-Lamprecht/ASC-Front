@@ -26,3 +26,7 @@
 .cancelButton {
   background-color: #641F46 !important;
 }
+
+.postCardText {
+  text-align: left;
+}

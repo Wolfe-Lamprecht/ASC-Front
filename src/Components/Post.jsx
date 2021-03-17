@@ -30,7 +30,7 @@ function Post({title, body, author_id}) {
         </Card.Subtitle>
       </Card.Header>
       <Card.Body className="pt-3 pb-3">
-        <Card.Text>{body}</Card.Text>
+        <Card.Text className="postCardText">{body}</Card.Text>
       </Card.Body>
     </Card>
   );
