@@ -7,7 +7,7 @@ function Users() {
     const [users, setUsers] = useState([])
  
     const fetchUsers = () => {
-        const apiUrl = 'http://127.0.0.1:8000/users/';
+        const apiUrl = ' https://asc-back.herokuapp.com/users/';
         fetch(apiUrl)
           .then((response) => response.json())
           .then((data) => setUsers(data)) 
@@ -23,7 +23,8 @@ function Users() {
         className="align-items-start">
             <h5>Users Component</h5>
             {users.map(user => 
-                <User
+                <User 
+                key={user.username}
                 username={user.username} 
                 firstName={user.firstName}
                 lastName={user.lastName}

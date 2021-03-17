@@ -6,7 +6,7 @@ export default function PostList() {
 
   const fetchPosts = async () => {
     await fetch("")
-      .then((res) => res.json("http://127.0.0.1:8000/"))
+      .then((res) => res.json(" https://asc-back.herokuapp.com/"))
       .then((res) => {
         setPosts(res);
         console.log(res);

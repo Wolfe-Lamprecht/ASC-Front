@@ -21,6 +21,7 @@ function Home(props) {
                 <Route path="/new-profile" component={CreateProfile} />
                 <Route path="/Login" component={Login} />
             
+                <Posts/>
         </Container>
     );
 }
