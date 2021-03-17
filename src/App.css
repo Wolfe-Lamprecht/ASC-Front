@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+.App {
+  text-align: center;
+  /* background-color: #efe7e7; */
+}
+
+#navbarBrand {
+  font-family: 'Bangers', sans-serif;
+  font-size: 1.75rem;
+  color: #F68814;
+}
+
+#navbar {
+  background-color: #291e82;
+}
+
+.nav-link:hover {
+  color: #CB05A3 !important;
+}
+
+.goButton {
+  background-color: #7B3B92 !important;
+}
+
+.cancelButton {
+  background-color: #641F46 !important;
+}
