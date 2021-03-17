@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container'
-import Posts from './Posts.jsx'
+import Posts from './Posts_b.jsx'
 import Login from './Login.jsx'
 import CreateProfile from './CreateProfile.jsx'
 import Users from './Users.jsx'
