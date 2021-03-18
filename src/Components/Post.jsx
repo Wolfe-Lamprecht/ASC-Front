@@ -24,7 +24,7 @@ function Post({title, body, author_id}) {
         <Card.Title className="mt-1 mb-2 float-left">{title}</Card.Title>
         <Card.Subtitle className="mb-1">
           <a href={slug}
-          className="text-muted float-right mt-2">
+          className="float-right mt-2 authorLinkOnPost">
             {authorInfo.username}
           </a>
         </Card.Subtitle>

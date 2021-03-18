@@ -18,8 +18,9 @@ function Posts(props) {
     }
 
     return (
-        <Container className="mt-3">
-            <h6>Posts Component</h6>
+        <Container 
+            className="mt-3">
+            {/* <h6>Posts Component</h6> */}
             {postFeed.map(post => 
                 <Post
                 title={post.title} 

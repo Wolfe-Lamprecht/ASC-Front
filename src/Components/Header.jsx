@@ -7,7 +7,6 @@ function Header(props) {
   return (
       <div>
     <Navbar 
-      // style={{backgroundColor: 'grey'}} 
       variant='dark'
       id="navbar">
       <Navbar.Brand 
